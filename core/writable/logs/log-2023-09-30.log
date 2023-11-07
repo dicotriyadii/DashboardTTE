@@ -1,0 +1,68 @@
+INFO - 2023-09-30 17:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 17:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 17:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 17:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 17:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 17:59:31 --> Undefined array key "namaKinerja"
+in APPPATH\Views\kinerja.php on line 55.
+ 1 APPPATH\Views\kinerja.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaKinerja"', 'C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Views\\kinerja.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Views\\kinerja.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kinerja', [], true)
+ 5 APPPATH\Controllers\Page.php(296): view('kinerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->kinerja()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-30 18:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 18:16:42 --> Undefined array key "namaKinerja"
+in APPPATH\Views\kinerja.php on line 55.
+ 1 APPPATH\Views\kinerja.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaKinerja"', 'C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Views\\kinerja.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Views\\kinerja.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kinerja', [], true)
+ 5 APPPATH\Controllers\Page.php(296): view('kinerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->kinerja()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-30 18:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 18:25:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Page.php on line 358.
+ 1 APPPATH\Controllers\Page.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Controllers\\Page.php', 358)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->kinerja()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-30 18:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 18:26:44 --> Undefined variable $token
+in APPPATH\Controllers\Page.php on line 309.
+ 1 APPPATH\Controllers\Page.php(309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $token', 'C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Controllers\\Page.php', 309)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->kinerja()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-30 18:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 18:36:03 --> Undefined array key "namaPekerjaan"
+in APPPATH\Views\kinerja.php on line 119.
+ 1 APPPATH\Views\kinerja.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaPekerjaan"', 'C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Views\\kinerja.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\kantor\\KinerjaTiksan\\core\\app\\Views\\kinerja.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kinerja', [], true)
+ 5 APPPATH\Controllers\Page.php(363): view('kinerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->kinerja()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-30 18:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 18:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
